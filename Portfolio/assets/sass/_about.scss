@@ -1,0 +1,47 @@
+.main_flex {
+    display: flex;
+}
+
+.text_about {
+    background:url(../images/back_concrete.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 90vh;
+    
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 6rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        opacity: 0.5;
+    }
+    p {
+        font-family: 'DosisRegular';
+        font-size: 2.7rem;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: auto;
+    }
+}
+
+.img_shelf {
+    img {
+        height: 90vh;
+    }
+}
+
+.box_black {
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to right, #333, rgb(66, 65, 65) 50%, rgb(228, 222, 222) 75%, rgb(255, 255, 255) 75%);
+    width: 40%;
+    height: 4px;
+    border-radius: 20px;
+}
+

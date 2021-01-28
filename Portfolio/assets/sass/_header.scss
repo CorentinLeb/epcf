@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+// --------------- NAVBAR STYLE ------------ \\
+.fa-bars {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  
+  li a {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 70px;
+    color: white;
+    text-decoration: none;
+    font-family: "Quando";
+    text-transform: uppercase;
+    height: 100%;
+  }
+
+  li {
+      height: 100%;
+  }
+  
+  li a:hover {
+    background-color: rgb(139, 135, 135);
+    
+  }}
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      height: 10vh;
+      background-color: #333;
+  }
+
+  .name_title {
+      text-transform: uppercase;
+      color: white; 
+      font-family: 'Imbue';
+      font-size: 7rem;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      padding-left: 60px;
+  }
+
+//   ------------- HEADER BACKGROUND ----------- \\
+
+.img_header {
+    background: url(../images/header_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+
+.text_presentation {
+    color: white; 
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Fira Mono', monospace;
+    width: 40%;
+    margin-left: 1100px;
+    margin-right: auto;
+    padding-top: 250px;
+    // transform: skew(5deg, 2deg);
+    animation: shake 2s linear infinite;
+}
+
+.text_presentation_2 {
+    color: white; 
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Fira Mono', monospace;
+    width: 40%;
+    margin-left: 1100px;
+    margin-right: auto;
+    padding-top: 50px;
+    // transform: skew(5deg, 2deg);
+    animation: shake 2s linear infinite;
+    letter-spacing: .1rem; ;
+}
+
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.02em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.05em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(-0.5deg);
+    }
+}
+
+

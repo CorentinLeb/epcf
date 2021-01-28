@@ -1,0 +1,113 @@
+@media only screen and (min-width: 360px) and (max-width: 768px) 
+{
+
+    // ---------- HOME PAGE ---------- \\
+    .text_presentation {
+        font-size: 1.5rem;
+        margin-left: 220px;
+        margin-right: auto;
+        padding-top: 200px;  
+    }
+    .text_presentation_2 {
+        font-size: 1.5rem;
+        margin-left: 220px;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
+    .name_title {
+        font-size: 2.5rem;
+    }
+
+    //  ---------- MENU BURGER --------- \\
+    nav {
+        flex-wrap: wrap;
+    }
+
+    ul {
+        display: none;
+        z-index: 1;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        li a {
+            flex-direction: column;
+            padding: 0px;
+        }
+        li {
+            height: auto;
+            padding-bottom: 5px;
+        }
+    }
+
+    .fa-bars {
+        display: block;
+        color: white;
+        font-size: 2.5rem;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    // ------- ABOUT ------- \\
+    .main_flex {
+        flex-direction: column;
+    }
+
+    .text_about {
+        width: 100vw;
+        height: 100vh;
+        h2 {
+            font-size: 2.3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            width: 100%;
+        }
+    }
+
+    // ------ PROJECTS ----- \\
+.title_project {
+    font-size: 2rem;
+    width: 70%;
+}
+.project_picture {
+    flex-direction: column;
+    margin-left: 130px;
+    img {
+        width: 100%;
+        height: 20%;
+    }
+}
+
+//  --------- CONTACT -------- \\
+
+.maps_back {
+    width: 95%;
+    height: 90%;
+}
+.letter {
+    width: 70%;
+}
+
+.footer_p {
+    margin-left: 10px;
+}
+.p_margin {
+    margin-top: 20px;
+}
+
+.div_flex {
+  
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+.div_flex_2 {
+    margin-right: 50px;
+    p {
+        font-size: 1.2rem;
+    }
+}
+}
