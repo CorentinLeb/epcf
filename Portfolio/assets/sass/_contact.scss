@@ -65,11 +65,12 @@ button {
 }
 
 .letter {
+  display: none;
   position: absolute;
   left: 0;
   right: 0;
   top: 414px;
-  width: 35rem;
+  width: 40%;
   margin: auto;
   perspective: 60rem;
 }
@@ -93,6 +94,10 @@ button {
       inset 0 -0.57rem 2rem rgba(229, 225, 187, 0.5);
     text-align: right;
   }
+}
+
+.maps_back {
+  width: 50%;
 }
 
 .p_margin {

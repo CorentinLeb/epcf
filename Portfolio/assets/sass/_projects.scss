@@ -2,7 +2,7 @@
     background: url(../images/back_concrete.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 30px;
+    // padding-top: 30px;
  
 }
 
@@ -18,22 +18,21 @@
     width: 50%;
     padding: 30px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.6rem;
     text-transform: uppercase;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-
 }
 
 .project_picture {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
+    width: 93%;
     margin-right: auto;
-    margin-left: 491px;
+    margin-left: 105px;
     img {
         width: 70%;
         height: 80%;

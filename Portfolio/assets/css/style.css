@@ -18,7 +18,7 @@ ul {
   align-items: center;
 }
 ul li a {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   padding-right: 70px;
@@ -47,7 +47,7 @@ nav {
   text-transform: uppercase;
   color: white;
   font-family: "Imbue";
-  font-size: 7rem;
+  font-size: 5rem;
   width: 50%;
   display: flex;
   align-items: center;
@@ -67,22 +67,22 @@ nav {
 .text_presentation {
   color: white;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Fira Mono", monospace;
   width: 40%;
-  margin-left: 1100px;
+  margin-left: 639px;
   margin-right: auto;
-  padding-top: 250px;
+  padding-top: 125px;
   animation: shake 2s linear infinite;
 }
 
 .text_presentation_2 {
   color: white;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Fira Mono", monospace;
   width: 40%;
-  margin-left: 1100px;
+  margin-left: 639px;
   margin-right: auto;
   padding-top: 50px;
   animation: shake 2s linear infinite;
@@ -137,18 +137,18 @@ nav {
 .text_about h2 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
   margin-top: 30px;
   margin-bottom: 30px;
   opacity: 0.5;
 }
 .text_about p {
   font-family: "DosisRegular";
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   width: 80%;
   text-align: center;
   margin-left: auto;
-  margin-top: 150px;
+  margin-top: 33px;
   margin-right: auto;
 }
 
@@ -158,7 +158,7 @@ nav {
 
 .box_black {
   margin-bottom: 20px;
-  margin-top: 150px;
+  margin-top: 49px;
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(to right, #333, #424141 50%, #e4dede 75%, white 75%);
@@ -230,11 +230,12 @@ button :focus {
 }
 
 .letter {
+  display: none;
   position: absolute;
   left: 0;
   right: 0;
   top: 414px;
-  width: 35rem;
+  width: 40%;
   margin: auto;
   perspective: 60rem;
 }
@@ -258,6 +259,10 @@ button :focus {
   text-align: right;
 }
 
+.maps_back {
+  width: 50%;
+}
+
 .p_margin {
   margin-top: 130px;
 }
@@ -276,7 +281,6 @@ button :focus {
   background: url(../images/back_concrete.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 30px;
 }
 
 .project_main {
@@ -291,7 +295,7 @@ button :focus {
   width: 50%;
   padding: 30px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
   margin-bottom: 15px;
   margin-left: auto;
@@ -303,9 +307,9 @@ button :focus {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 70%;
+  width: 93%;
   margin-right: auto;
-  margin-left: 491px;
+  margin-left: 105px;
 }
 .project_picture img {
   width: 70%;
@@ -423,11 +427,12 @@ button :focus {
 }
 
 .letter {
+  display: none;
   position: absolute;
   left: 0;
   right: 0;
   top: 414px;
-  width: 35rem;
+  width: 40%;
   margin: auto;
   perspective: 60rem;
 }
@@ -451,6 +456,10 @@ button :focus {
   text-align: right;
 }
 
+.maps_back {
+  width: 50%;
+}
+
 .p_margin {
   margin-top: 130px;
 }
@@ -468,7 +477,7 @@ button :focus {
 footer {
   background: black;
   width: 100%;
-  height: 15vh;
+  height: 15%;
 }
 
 .footer_p {

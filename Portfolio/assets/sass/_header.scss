@@ -6,6 +6,7 @@
 .fa-bars {
     display: none;
 }
+
 ul {
     list-style-type: none;
     display: flex;
@@ -14,7 +15,7 @@ ul {
     align-items: center;
   
   li a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     padding-right: 70px;
@@ -46,7 +47,7 @@ ul {
       text-transform: uppercase;
       color: white; 
       font-family: 'Imbue';
-      font-size: 7rem;
+      font-size: 5rem;
       width: 50%;
       display: flex;
       align-items: center;
@@ -68,12 +69,12 @@ ul {
 .text_presentation {
     color: white; 
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Fira Mono', monospace;
     width: 40%;
-    margin-left: 1100px;
+    margin-left: 639px;
     margin-right: auto;
-    padding-top: 250px;
+    padding-top: 125px;
     // transform: skew(5deg, 2deg);
     animation: shake 2s linear infinite;
 }
@@ -81,10 +82,10 @@ ul {
 .text_presentation_2 {
     color: white; 
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Fira Mono', monospace;
     width: 40%;
-    margin-left: 1100px;
+    margin-left: 639px;
     margin-right: auto;
     padding-top: 50px;
     // transform: skew(5deg, 2deg);
